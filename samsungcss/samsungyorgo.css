@@ -1,36 +1,13 @@
-.content{
-	text-align: center;
-}
-.content h1{
-	font-size: size:95px;
-	color: white;
-	margin-bottom: 50px;
-}
-.content a{
-	font-size: 23px;
-	color: white;
-	border: 2px solid white;
-	padding: 15px 25px;
-	border-radius: 50px;
-}
-.background-clip{
-	position: absolute;
-	right:0;
-	bottom: 0;
-	z-index: -1;
-}
 video{
-	width:100%;
-	height: 100vh;
 	background-image:linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40));
 	background-position: center;
 	background-size: center;
 }
-img{
+div1 img{
 	height: 50px;
 	width:50px;
 }
-h1{
+header h1{
 	color: red;
 }
 .alignimagenadsign{
@@ -48,6 +25,17 @@ div3 ul li{
 	margin: 0 10px;
 	display: inline-block;
 }
-footer ul li{
-	display:grid;
+main div5{
+	text-align: center;
+}
+main h2{
+	font-size: 15px;
+	padding:0px 300px;
+	color:greenyellow;
+}
+
+.alignthefooter{
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
 }
