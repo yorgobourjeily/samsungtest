@@ -1,0 +1,42 @@
+.videoposition{
+	position: relative;
+}
+.videopostion-text{
+	text-align: center;
+	position: absolute;
+	color: #fff;
+	padding: 200px;
+}
+video{
+	width:100%;
+	height: 100vh;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40));
+	background-position: center;
+	background-size: center;
+}
+
+img{
+	height: 50px;
+	width:50px;
+}
+h1{
+	color: red;
+}
+.alignimagenadsign{
+	display:flex;
+	align-items: center;
+}
+.topelements{
+	display:flex;
+	justify-content: space-between;
+}
+.elementsright{
+	text-align: right;
+}
+div3 ul li{
+	margin: 0 10px;
+	display: inline-block;
+}
+footer ul li{
+	display:grid;
+}
